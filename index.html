@@ -50,12 +50,14 @@
       that uses something called, "Post Blocks" where post variables and strings are set. Some examples 
       of post blocks would be the File Header block where you set g and m codes that are used at the 
       begginnig of the file. Another example would be a Tool Change post block where you can define
-      what g and m codes get used during tool changes at the CNC machine. The post processor is the most 
+      what g and m codes get used during tool changes at the CNC machine. There are also program blocks 
+      that use the "VBScript" and "Lua" languages for more control over the output. The post processor is the most 
       important part of the software because it is the last step before the code gets sent to
       the machine. If the post processor is not correct, the machine will not
       run the program correctly and the part will not be made correctly. My job
       is to create and maintain these post processors for the machines that we
-      support. 
+      support. I also create and maintain post processor utilities such as the BobCAD-CAM Post Processor Utility
+      for Visual Studio Code that use Javascript and other internal post processor utilites that use C#. 
     </p>
     <hr />
     <h3>Education</h3>
